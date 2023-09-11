@@ -1,0 +1,39 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  .blgbox1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: blue;
+  }
+  .blgbox2{
+    width: 80%;
+    margin-top: 58px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+  }
+  .blgbox2 .b1 img{
+    width: 100%;
+  }
+  .blgbox3{
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:10px
+  }
+  .blgbox3 img{
+    width: 100%;
+  }
+  .blgbox2 .b2{
+    font-size:0.75rem;
+    padding:15px;
+  }
+  
+  .blgbox3 p{
+    font-size: 0.5rem;
+  }
