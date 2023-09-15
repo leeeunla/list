@@ -28,7 +28,7 @@ export function List() {
       <p>리액트 연습 코드</p>
       <ul>
         {products.map((p) => {
-          return <li>{p.title}</li>;
+          <Title fontColor="blue">{p.title}</Title>;
         })}
       </ul>
       <Container>
