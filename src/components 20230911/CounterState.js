@@ -27,8 +27,6 @@ export function CounterState() {
     // count = count + 1;
     console.log("plus", count);
   }
-  console.log("counterState start!!!");
-  console.log("counterState end!!!");
   return (
     <>
       <Container>
