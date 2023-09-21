@@ -33,7 +33,9 @@ export default function App() {
   return (
     <>
       <GlobalStyle />
-      <Flower />
+      {/* <GameShop /> */}
+      {/* <Flower /> */}
+      <MyRouter />
       {/* <UseContext /> */}
     </>
   );
